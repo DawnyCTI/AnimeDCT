@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Encabezado con diseño dinámico -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">¡Bienvenido al Mundo del Anime!</h1>
+
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Galería de imágenes -->
+        <h2 class="section-title">Imágenes de anime</h2>
+        <div class="gallery">
+            <img src="img/naruto.jpg" alt="Naruto Uzumaki">
+            <img src="img/goku.jpg" alt="Goku">
+            <img src="img/luffy.jpg" alt="Monkey D. Luffy">
+            <img src="img/eren.jpg" alt="Eren Yeager">
+            <img src="img/vegeta.jpg" alt="Vegeta">
+            <img src="img/mikasa.jpg" alt="Mikasa Ackerman">
+            <img src="img/sasuke.jpg" alt="Sasuke Uchiha">
+            <img src="img/light.jpg" alt="Light Yagami">
+            <img src="img/zoro.jpg" alt="Roronoa Zoro">
+        </div>
+
+        <!-- Lista de animes -->
+        <h3 class="section-title">Lista de animes</h3>
+        <ul class="anime-list">
+            <li>Naruto</li>
+            <li>Dragon Ball</li>
+            <li>One Piece</li>
+            <li>Death Note</li>
+            <li>Attack on Titan</li>
+        </ul>
+
+        <!-- Lista de personajes -->
+        <h3 class="section-title">Personajes de anime</h3>
+        <ul class="character-list">
+            <li>Naruto</li>
+            <li>Sasuke</li>
+            <li>Goku</li>
+            <li>Vegeta</li>
+            <li>Luffy</li>
+            <li>Zoro</li>
+            <li>Light</li>
+            <li>L</li>
+            <li>Eren</li>
+            <li>Mikasa</li>
+        </ul>
+
+        <!-- Enlaces de interés -->
+        <h5 class="section-title">Enlaces de interés</h5>
+        <ul class="link-list">
+            <li><a href="https://www.crunchyroll.com/es">Crunchyroll</a></li>
+            <li><a href="https://www3.animeflv.net/">AnimeFLV</a></li>
+            <li><a href="https://www.animeid.tv/">AnimeID</a></li>
+            <li><a href="https://www.animeyt.tv/">AnimeYT</a></li>
+        </ul>
+
+        <!-- Formulario de contacto -->
+        <h6 class="section-title">Formulario de contacto</h6>
+        <form action="./index.html" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p class="footer-text">&copy; Dawny Chalas Telemaco 2022-1014 | Anime 2024</p>
+    </footer>
+
+    <!-- Archivos de JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
